@@ -7,9 +7,6 @@ const assertEqual = function(actual, expected) {
   // return;
 };
 
-const tail = function(arr) {
-  return arr.slice(1);
-};
 
 const eqArrays = function(arr1, arr2) {
   if (arr1.length === arr2.length) {
