@@ -12,11 +12,13 @@ const eqArrays = function(arr1, arr2) {
 };
 
 const assertArraysEqual = function(arr1, arr2) {
+  const inspect = require('util').inspect;
   if (eqArrays(arr1, arr2)) {
-    console.log(`✅✅✅ Assertion Passed: [${arr1}] is a perfect match to [${arr2}]`);
+
+    console.log(`✅✅✅Assertion Passed: ${inspect(arr1)} is a perfect match to ${inspect(arr2)}`);
     return;
   }
-  console.log(`🔴🔴🔴 Assertion Failed: [${arr1}] is not a perfect match to [${arr2}]`);
+  console.log(`🔴🔴🔴Assertion Failed: ${inspect(arr1)} is not a perfect match to ${inspect(arr2)}`);
 };
 
 // Words to test with
