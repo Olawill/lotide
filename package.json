@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@olawalea/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "A package for array functions and manipulation",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -14,7 +14,7 @@
     "url": "git+https://github.com/Olawill/lotide.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Olawale Ajuwon <henry.williams658@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Olawill/lotide/issues"
